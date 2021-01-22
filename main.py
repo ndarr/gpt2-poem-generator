@@ -23,7 +23,7 @@ data_loader_params = {
 }
 data_loader = DataLoader(poem_data, **data_loader_params)
 
-epochs = 10
+epochs = 30
 
 losses = []
 for i in range(epochs):
